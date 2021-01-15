@@ -4,16 +4,39 @@ body {
 
 h1 {
   margin: 10px;
+  font-family: Verdana;
+}
+
+p {
+  margin: 10px;
+  font-family: avenir;
 }
 
 img {
-  width: 70%;
+  width: 100%;
   border-radius: 30px;
-  margin-top: 10px;
+  margin: 10px;
 }
+
 
 .box {
   width: 70%;
-  margin: auto;
+  /* margin: auto; */
 }
 
+.bw-showing {
+  display: none;
+}
+
+.photos-hidden {
+  display: none;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable { 
+  cursor: pointer;
+  color: 0088cc;
+}
