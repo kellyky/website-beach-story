@@ -4,12 +4,12 @@ body {
 
 h1 {
   margin: 10px;
-  font-family: Verdana;
+  font-family: 'Playfair Display', serif;
 }
 
 p {
   margin: 10px;
-  font-family: avenir;
+  font-family: 'Roboto Slab', serif;
 }
 
 img {
@@ -39,4 +39,9 @@ img {
 .clickable { 
   cursor: pointer;
   color: 0088cc;
+  font-weight: bold;
+}
+
+.beach-color-reveal {
+  display: none;
 }
