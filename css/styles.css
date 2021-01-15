@@ -1,0 +1,19 @@
+body {
+  background-color: #E2D4D7;
+}
+
+h1 {
+  margin: 10px;
+}
+
+img {
+  width: 70%;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.box {
+  width: 70%;
+  margin: auto;
+}
+
