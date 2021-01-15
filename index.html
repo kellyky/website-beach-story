@@ -5,42 +5,98 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Personal Website</title>
+  <title>Beach Story</title>
 </head>
 <body>
-  <h1>Kelly's Website - Placeholder Heading</h1>
+  <h1>A Beach Story</h1>
+
+  <!-- Introductory text and photo -->
   <div id="intro">
-    <p>Walk with me on the beach today. <span class="clickable">Click here</span> to see it in color.</p>
+    <p>Walk with me on the beach today. <span class="clickable" id="click1">Click here</span> to begin.</p>
   </div>
+
+  <!-- Journey begins. Photo turns to color. Unnecessary? Almost certainly. -->
   <div class="box">
-    <div class="bw-disappear">
-      <img src="img/beach.jpg">
-    </div>
-  </div>
-  <div class="box">
-    <div class="beach-color-reveal">
+    <div id="beach-color-reveal">
+      <p>So far, so good. Just an ordinary day at the beach. You wouldn't believe me if I told you what came next. </p>
+      <p><span class="clickable" id="click2">Click here</span> to proceed.</p>
       <img src="img/beach-color.jpg">
     </div>
   </div>  
 
-
-
-  <!-- <span class="clickable">Click here</span> to see a 'crop' circle on the beach.</p> -->
-  <!--   <div class="bw-showing"> --> 
-  <!--     <img src="img/beach-circles-bw.jpg" class="box"> -->
-      
-            
-
-
+  <!-- Beach 'crop' circles discovered! -->
+  <div class="box">
+    <div id="circle">
+      <p>We were visited. It's true. But who did this? <em>What</em> did this? I set out to find the answer.</p>
+      <p><span class="clickable" id="click3"> Click here</span> to find out what happened next.</p>
+      <img src="img/beach-circles.jpg">
     </div>
+  </div>
+  
+  <!-- Click to swap circle photo with birds photo -->
+  <div class="box">
+    <div id="birds">
+      <p>I found some witnesses, but they wouldn't talk. I could see I was in rocky waters, and there were signs of danger. I kept walking.</p>
+      <p><span class="clickable" id="click4">Click here</span> to continue.</p>
+      <img src="img/birds.jpg">
+    </div>
+  </div>
 
+  <!-- Click to swap birds photo with photo of 'tank' -->
+   <div class="box">
+    <div id="tank">
+      <p>A tank!</p>
+      <p>I pressed on (<span class="clickable" id="click5">Click here</span>).</p>
+      <img src="img/tank.jpg">
+    </div>
+  </div>
 
+  <!-- Click to swap 'tank' photo with 'alien' mollusk photo. -->
+  <div class="box">
+    <div id="mollusk">
+      <p>It's... <em>the Blob!!</em> It's absorbing this poor seashell. I wasn't sure whether to try to find it, to find help or to simply run away. One thing was for sure. I needed fuel to do anything.</p>
+      <p><span class="clickable" id="click6">Click here</span> to continue.</p>
+      <img src="img/mollusk.jpg">
+    </div>
+  </div>
 
+  <!-- Click to swap alien/mollusk photo with 'fuel' (espresso machine) photo. -->
+  <div class="box">
+    <div id="fuel">
+      <p>All fueled up! Time to get out of dodge.</p>
+      <p><span class="clickable" id="click7">Click here</span> to proceed.</p>
+      <img src="img/fuel.jpg">
+    </div>
+  </div>
 
+  <!-- Click to swap fuel/espresso photo with 'Great North' (pastry bar) photo. -->
+  <div class="box">
+    <div id="north">
+      <p>At long last, I landed in the Great North. Time to look for supplies.</p>
+      <p><span class="clickable" id="click8">Click here</span> to search for supplies.</p>
+      <img src="img/north.jpg">
+    </div>
+  </div>
+
+  <!-- Click to swap north/pastry photo with outpost-north photo. -->
+  <div class="box">
+    <div id="trading-post">
+      <p>It was a relief to finally arrive at a trading post, after such an ardous journey.</p>
+      <p><span class="clickable" id="click9">Click here</span>.</p>
+      <img src="img/outpost-north.jpg">
+    </div>
+  </div>
+
+  <!-- Click to swap trading post photo with photo of second trading post photo. Also, the end text should display.-->
+  <div class="box">
+    <div id="the-end">
+      <p>This is where my tale of whimsy and woe ends today. Thank you for joining me.</p> 
+      <img src="img/outpost.jpg">
+    </div>
+  </div>
 
 </body>
 </html>

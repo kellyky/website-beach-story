@@ -1,14 +1,17 @@
 body {
-  background-color: #E2D4D7;
+  background-color: #CCBEC1;
+  padding:15px;
+}
+
+h1, p {
+  margin: 10px;
 }
 
 h1 {
-  margin: 10px;
   font-family: 'Playfair Display', serif;
 }
 
 p {
-  margin: 10px;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -18,18 +21,8 @@ img {
   margin: 10px;
 }
 
-
 .box {
-  width: 70%;
-  /* margin: auto; */
-}
-
-.bw-showing {
-  display: none;
-}
-
-.photos-hidden {
-  display: none;
+  width: 50%;
 }
 
 .clickable:hover {
@@ -42,6 +35,7 @@ img {
   font-weight: bold;
 }
 
-.beach-color-reveal {
+#beach-color-reveal, #circle, #birds, #tank, #mollusk, #fuel, #north, #trading-post, #the-end {
   display: none;
 }
+
